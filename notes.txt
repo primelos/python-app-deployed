@@ -1,0 +1,28 @@
+commands
+
+show whats installed in the virtual environment = pip3 freeze
+
+create virtual environment                      = python3 -m venv ./venv
+
+activate virtual environment                    = source ./venv/bin/activate
+
+install django                                  = pip install django
+
+create django project, use cli program          = django-admin help
+
+start project                                   = django-admin startproject btre .
+
+localized files for the project                 = python manage.py help
+
+run django dev server to run locally             = python manage.py runserver
+
+folder for creating a app                       = python manage.py startapp pages
+
+static files setup / new folder in the root     = python manage.py collectstatic
+
+postgres=# \password postgres
+postgres=# CREATE DATABASE btredb OWNER postgres;
+list of database                                = \l
+exit                                            = \q
+
+install drivers to connect to postgress         = (1st) pip install psycopg2 (2nd)  pip install psycopg2-binary
