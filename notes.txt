@@ -6,6 +6,8 @@ create virtual environment                      = python3 -m venv ./venv
 
 activate virtual environment                    = source ./venv/bin/activate
 
+get of virtual environment                      = deactivate
+
 install django                                  = pip install django
 
 create django project, use cli program          = django-admin help
@@ -19,6 +21,7 @@ run django dev server to run locally             = python manage.py runserver
 folder for creating a app                       = python manage.py startapp pages
 
 static files setup / new folder in the root     = python manage.py collectstatic
+
 
 postgres=# \password postgres
 postgres=# CREATE DATABASE btredb OWNER postgres;
