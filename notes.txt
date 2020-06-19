@@ -29,3 +29,8 @@ list of database                                = \l
 exit                                            = \q
 
 install drivers to connect to postgress         = (1st) pip install psycopg2 (2nd)  pip install psycopg2-binary
+
+
+
+/////may help
+pip install --upgrade pip
