@@ -1,3 +1,10 @@
 {
-    "python.pythonPath": "venv/bin/python"
+    "python.pythonPath": "venv/bin/python",
+    "cSpell.ignoreWords": [
+        "django",
+        "install",
+        "pip",
+        "pip install pylint django",
+        "pylint"
+    ]
 }
