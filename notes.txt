@@ -44,5 +44,10 @@ create a user to login in                       = python manage.py createsuperus
 
                                                 = pip install pylint-django
 
+                                                = python manage.py startapp accounts
+
+
+
+stop cross site forgery use {% csrf_token %}
 /////may help
 pip install --upgrade pip
